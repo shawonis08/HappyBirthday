@@ -9,8 +9,6 @@
     <RelativeLayout
         android:layout_width="344dp"
         android:layout_height="495dp"
-        android:layout_marginLeft="0dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="0dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,9 +18,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/androidparty" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/androidparty"
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:id="@+id/textView2"
