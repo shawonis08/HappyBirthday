@@ -28,12 +28,20 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
             android:text="From, Shahidul" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="34sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
             android:text="Happy Birthday Tunan!" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
